@@ -1,0 +1,26 @@
+[
+  {
+    "username": "user123",
+    "password": "123456",
+    "info": [
+      {
+        "protocol": "ip",
+        "sourceip": "1.1.1.1/24",
+        "destinationip": "2.2.2.2/24",
+        "accesstype": "permit"
+      }
+    ]
+  },
+  {
+    "username": "user567",
+    "password": "123456",
+    "info": [
+      {
+        "protocol": "tcp",
+        "sourceip": "1.1.1.1/29",
+        "destinationip": "2.2.2.2/24",
+        "accesstype": "permit"
+      }
+    ]
+  }
+]
